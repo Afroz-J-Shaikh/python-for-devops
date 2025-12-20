@@ -8,10 +8,10 @@ def threshold_check():
     disk_threshold = psutil.disk_usage('/').percent
     memory_threshold = psutil.virtual_memory().percent
 
-    print("Your Metric\t\tSystem Metric")
-    print(user_cpu_threshold,"\t\t\t",cpu_threshold)
-    print(user_disk_threshold,"\t\t\t",disk_threshold)
-    print(user_memory_threshold,"\t\t\t",memory_threshold)
+    print("\t\tYour Metric\t\tSystem Metric")
+    print("CPU\t\t",user_cpu_threshold,"\t\t\t",cpu_threshold)
+    print("Disk\t\t",user_disk_threshold,"\t\t\t",disk_threshold)
+    print("Memory\t\t",user_memory_threshold,"\t\t\t",memory_threshold)
     
     if cpu_threshold  > user_cpu_threshold:
         print("CPU usage exceeds threshold")
