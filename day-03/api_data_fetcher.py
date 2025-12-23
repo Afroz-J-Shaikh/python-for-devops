@@ -15,7 +15,7 @@ def get_repo_using_api():
             for repo in response.json():
                 repo_name.append(repo['name'])
                 print(repo['name'])
-        json.dump(repo_name, file, indent=2)
+            json.dump(repo_name, file, indent=2)
     except Exception as e:
         if(response.status_code == 404):
             print("User not found. Please check the username and try again.")
