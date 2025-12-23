@@ -10,7 +10,9 @@ def open_file(file_name):
             if file.readlines() == []:
                 print("The log file is empty.")
                 exit()
-            return file.readlines()
+            else:
+                file.seek(0)  
+                return file.readlines()
     except Exception as e:
         print(f"Error opening file: {e}")
         exit()
@@ -25,7 +27,7 @@ def analyze_logs(file_data):
             count["WARNING"] += 1
         elif "ERROR" in line:
             count["ERROR"] += 1
-            
+
 def wrtie_output():
     try:
         with open("log_summary.json","w") as f:
