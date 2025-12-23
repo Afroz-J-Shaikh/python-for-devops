@@ -21,11 +21,11 @@ def open_file(file_name):
 def analyze_logs(file_data):
     global count
     for line in file_data:
-        if "INFO" in line:
+        if str.find(line, "INFO") != -1:
             count["INFO"] += 1
-        elif "WARNING" in line:
+        elif str.find(line, "WARNING") != -1:
             count["WARNING"] += 1
-        elif "ERROR" in line:
+        elif str.find(line, "ERROR") != -1:
             count["ERROR"] += 1
 
 def wrtie_output():
