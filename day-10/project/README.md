@@ -1,15 +1,15 @@
-#Capstone Project
+# Capstone Project
 
-##Situation
+## Situation
 
 Manual server checks were slow and inconsistent, with no quick way to confirm system health without logging in.  
 There was also no early warning before performance degraded to a critical point. 
 
-##Task
+## Task
 
 Developed a lightweight Python API to automate DevOps monitoring and analysis, enabling simple, reliable, and programmatic tracking of server health.
 
-##Action
+## Action
 
 - Designed and implemented two REST endpoints using **FastAPI** with a modular architecture (services/routers) for scalability and maintainability.
 - Integrated **psutil** to capture real‑time system metrics (CPU, memory, disk usage) with configurable thresholds for proactive monitoring.
@@ -17,7 +17,7 @@ Developed a lightweight Python API to automate DevOps monitoring and analysis, e
 - Delivered structured **JSON responses** to ensure consistency and easy integration with monitoring tools and automation scripts.
 - Applied robust **error handling** with appropriate HTTP status codes to improve reliability and client‑side debugging.
 
-##Result :
+## Result :
 
 - **Reduced manual monitoring effort by 40%** and improved reliability by delivering real‑time server health insights.
 - Enabled early detection of performance issues, **cutting downtime by 30%.**
