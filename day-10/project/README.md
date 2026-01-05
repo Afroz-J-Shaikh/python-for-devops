@@ -12,12 +12,12 @@ Developed a lightweight Python API to automate DevOps monitoring and analysis, e
 ## Action
 
 - Designed and implemented two REST endpoints using **FastAPI** with a modular architecture (services/routers) for scalability and maintainability.
-- Integrated **psutil** to capture real‑time system metrics (CPU, memory, disk usage) with configurable thresholds for proactive monitoring.
-- Extended functionality to display current logged‑in users, system uptime, and running processes for deeper operational insights.
+- Integrated **psutil** to capture real‑time system metrics **(CPU, memory, disk usage)** with configurable thresholds for proactive monitoring.
+- Extended functionality to display **current logged‑in user, system uptime, and running processes** for deeper operational insights.
 - Delivered structured **JSON responses** to ensure consistency and easy integration with monitoring tools and automation scripts.
 - Applied robust **error handling** with appropriate HTTP status codes to improve reliability and client‑side debugging.
 
-## Result :
+## Result
 
 - **Reduced manual monitoring effort by 40%** and improved reliability by delivering real‑time server health insights.
 - Enabled early detection of performance issues, **cutting downtime by 30%.**
