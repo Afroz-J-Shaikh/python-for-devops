@@ -16,6 +16,7 @@ Developed a lightweight Python API to automate DevOps monitoring and analysis, e
 - Extended functionality to display **current logged‑in user, system uptime, and running processes** for deeper operational insights.
 - Delivered structured **JSON responses** to ensure consistency and easy integration with monitoring tools and automation scripts.
 - Applied robust **error handling** with appropriate HTTP status codes to improve reliability and client‑side debugging.
+- Implemented **SMTP email notifications** within FastAPI monitoring endpoints to proactively alert administrators when CPU, memory, or disk usage exceeded defined thresholds.
 
 ## Result
 
