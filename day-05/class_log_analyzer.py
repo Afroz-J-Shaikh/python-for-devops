@@ -20,6 +20,7 @@ class LogAnalyzer:
             elif "ERROR" in line:
                 self.counts["ERROR"] += 1
     
+    
 def main():
     f_name=input("Enter log file name: ")
     analyzer= LogAnalyzer(f_name)
