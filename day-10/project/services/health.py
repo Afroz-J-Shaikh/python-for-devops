@@ -19,7 +19,7 @@ def get_health(cpu,mem,disk):
 
     sender_email = "afsk1997@gmail.com"  
     receiver_email = "afsk1997@gmail.com"  
-    app_password = "ggag whiz uvow nurz"  # Replace with your App Password
+    app_password = "**** **** **** ****"  # Replace with your App Password
 
     # Create the email message
     msg = EmailMessage()
